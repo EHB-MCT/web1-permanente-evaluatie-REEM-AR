@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+body {
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+section {
+    width: 100%;
+    height: 95vh;
+    background-image: url(img/pexels-photo-2013664.jpeg) no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #273238;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+    padding: 0px 5%;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin: 30px;
+    font-family: 'Indie Flower', cursive;
+    color: #e0e9d9;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.logo {
+    font-family: 'Indie Flower', cursive;
+    color: #73a883;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+
+
+.about-container {
+    width: 80%;
+    height: 530px;
+    display: flex;
+    margin: 10% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.about-container img {
+    height: 80%;
+
+
+}
+
+.about-text {
+    width: 550px;
+}
+
+.about-text h1 {
+     color: #73a883;
+        font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 0px;
+
+}
+span{
+    font-size: 30px;
+    color:#25636b;
+}
+
+.icon-home:before {
+    content: "\1f3d8";
+    font-size: 40px;
+  }
+
+  
+  .icon-phone:before {
+    content: "\1f57e";
+    font-size: 40px;
+  }
+  .icon-mail4:before {
+    content: "\1f582";
+    font-size: 40px;
+  }
+
+
+.about-text p {
+    color: #3e3d3e;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    span{
+        font-size: 20px;
+        color:#25636b;
+    }
+    .about-container img {
+      width: 50%;
+      height: 60%;
+  
+    
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    span{
+        font-size: 20px;
+        color:#25636b;
+    }
+    .about-container img {
+      width: 50%;
+      height: 60%;
+  
+    
+    }
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    span{
+        font-size: 20px;
+        color:#25636b;
+    }
+    .about-container img {
+      width: 70%;
+      height: 80%;
+  
+    
+    }
+}
+
+@media screen and (min-width:1200px){
+
+}
